@@ -129,7 +129,7 @@ async function wrapMON(index, total, wallet) {
 }
 
 async function main() {
-  cfonts.say("NT Exhaust", {
+  cfonts.say("AirdropHoka", {
     font: "block",
     align: "center",
     colors: ["cyan", "magenta"],
@@ -140,7 +140,7 @@ async function main() {
     maxLength: "0",
   });
 
-  console.log("=== Telegram Channel🚀 : NT Exhaust (@NTExhaust) ===", "\x1b[36m");
+  console.log("=== Telegram Channel🚀 @AirdropHoka", "\x1b[36m");
 
   const provider = new ethers.JsonRpcProvider(RPC_URL);
   const wallet = new ethers.Wallet(PRIVATE_KEY, provider);
